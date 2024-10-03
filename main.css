@@ -1,10 +1,13 @@
 body {
-    background-color: #faebd7;
+    background-color: steelblue;
 }
 a{
     color: black;
     padding: 25px;
     font-size: 20px;
+}
+#active {
+    background-color: beige;
 }
 h1 {
     text-align: center;
@@ -13,4 +16,12 @@ h1 {
 img {
     width: 300px;
     
+}
+
+.grey {
+background-color: grey;
+}
+
+.white {
+    background-color: white;
 }
