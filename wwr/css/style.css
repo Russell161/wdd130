@@ -9,13 +9,15 @@ body {
 }
 
 .book, .join{
-    background-color: #0b6a0b;
+    background-color: slategray;
     color: black;
     text-decoration: none;
+    text-align: center;
 }
 
 .book:hover, .join:hover{
     color: black;
+    background-color: #c7a540;
 }
 
 .button-box {
