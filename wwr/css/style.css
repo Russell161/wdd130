@@ -83,6 +83,26 @@ footer .social img{
     padding-top: 15px;
 }
 
+#faq2{
+    width: 800px;
+    height: 500px;
+
+}
+
+#faq3{
+    padding-top: 25px;
+    width: 800px;
+    height: 500px;
+}
+
+#faq-msg{
+    padding: 35px;
+    font-family: Fredoka, verdana, sans-serif;
+    align-content: center;
+    font-size: 1.5em;
+    color:#c7a540
+}
+
 h4{
     color: black;
 }
@@ -167,6 +187,12 @@ main section img{
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg-header{
+    font-size: 2em;
+    color: #c7a540;
+    font-family: Fredoka, verdana, sans-serif;
 }
 
 .msg h2{
