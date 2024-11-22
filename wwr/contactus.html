@@ -28,13 +28,10 @@ label {
   text-align: right;
 }
 
-input,
-textarea {
+input, textarea {
   font: 1em sans-serif;
-  
   width: 300px;
   box-sizing: border-box;
-  /
   border: 1px solid #999;
 }
 
@@ -84,24 +81,24 @@ button {
     </div>
     <main>
         <form action="/my-handling-form-page" method="post">
-            <div>
+            <p>
               <label for="name">Name:</label>
               <input type="text" id="name" name="user_name" />
-            </div>
+            </p>
           
-            <div>
+            <p>
               <label for="mail">Email:</label>
               <input type="email" id="mail" name="user_email" />
-            </div>
+            </p>
           
-            <div>
+            <p>
               <label for="msg">Message:</label>
               <textarea id="msg" name="user_message"></textarea>
-            </div>
+            </p>
           
-            <div class="button">
+            <p class="button">
               <button type="submit">Send your message</button>
-            </div>
+            </p>
           </form>
           
     </main>
