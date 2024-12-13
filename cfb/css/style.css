@@ -49,6 +49,7 @@ header {
 .h-color {
     color: red;
     font-family: Fredoka, Helvetica, sans-serif;
+    font-size: 1.8rem;
 }
 
 .header-msg{
